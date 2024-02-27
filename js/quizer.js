@@ -934,6 +934,18 @@ let en_2000_f = [
 			group : "Kelis",
 			song : "Bossy (ft Too Short)",
 			year : 2006
+		},
+		{
+			pack : EN_2000_F_PACK_2,
+			group : "Lily Allen",
+			song : "Smile",
+			year : 2006
+		},
+		{
+			pack : EN_2000_F_PACK_2,
+			group : "Aaliyah",
+			song : "Try Again",
+			year : 2000
 		}
 ];
 

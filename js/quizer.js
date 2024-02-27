@@ -946,6 +946,12 @@ let en_2000_f = [
 			group : "Aaliyah",
 			song : "Try Again",
 			year : 2000
+		},
+		{
+			pack : EN_2000_F_PACK_2,
+			group : "Ciara",
+			song : "Love Sex Magic (ft Justin Timberlake)",
+			year : 2009
 		}
 ];
 

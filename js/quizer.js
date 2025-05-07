@@ -346,12 +346,14 @@ function load(){
 const en_2000_f_icon = [
 	'easy',
 	'medium',
-	'rnb'
+	'rnb',
+	'hard'
 ];
 
 const EN_2000_F_PACK_1 = 1;
 const EN_2000_F_PACK_2 = 2;
 const EN_2000_F_PACK_3 = 3;
+const EN_2000_F_PACK_4 = 4;
 
 let en_2000_f = [
 		{
@@ -948,16 +950,77 @@ let en_2000_f = [
 			year : 2000
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_3,
 			group : "Ciara",
 			song : "Love Sex Magic (ft Justin Timberlake)",
 			year : 2009
+		},
+		{
+			pack : EN_2000_F_PACK_4,
+			group : "Ashlee Simpson",
+			song : "Pieces of Me (2004)"
+		},
+		{
+			pack : EN_2000_F_PACK_4,
+			group : "Ashlee Simpson",
+			song : "Boyfriend (2005)"
+		},
+		{
+			pack : EN_2000_F_PACK_4,
+			group : "Ashlee Simpson",
+			song : "L.O.V.E. (2005)"
+		},
+		{
+			pack : EN_2000_F_PACK_4,
+			group : "Jessica Simpson",
+			song : "I Think I'm in Love with You (2000)"
+		},
+		{
+			pack : EN_2000_F_PACK_4,
+			group : "Jessica Simpson",
+			song : "A Public Affair (2006)"
+		},
+		{
+			pack : EN_2000_F_PACK_4,
+			group : "Jessica Simpson",
+			song : "These Boots Are Made for Walkin' (2005)"
+		},
+		{
+			pack : EN_2000_F_PACK_4,
+			group : "JoJo",
+			song : "Leave (Get Out) (2004)"
+		},
+		{
+			pack : EN_2000_F_PACK_4,
+			group : "JoJo",
+			song : "Baby It's You (ft Bow Wow) (2004)"
+		},
+		{
+			pack : EN_2000_F_PACK_4,
+			group : "JoJo",
+			song : "Too Little Too Late (2006)"
+		},
+		{
+			pack : EN_2000_F_PACK_4,
+			group : "Jamelia",
+			song : "Superstar (2003)"
+		},
+		{
+			pack : EN_2000_F_PACK_4,
+			group : "Jamelia",
+			song : "Thank You (2004)"
+		},
+		{
+			pack : EN_2000_F_PACK_4,
+			group : "Jamelia",
+			song : "Beware of the Dog (2006)"
 		}
 ];
 
 let en_2000_f_1 =	en_2000_f.filter(item => item.pack == 1);
 let en_2000_f_2 =	en_2000_f.filter(item => item.pack == 2);
 let en_2000_f_3 =	en_2000_f.filter(item => item.pack == 3);
+let en_2000_f_4 =	en_2000_f.filter(item => item.pack == 4);
 
 let music = [
 	{
@@ -977,6 +1040,10 @@ let music = [
 				{
 					arr: en_2000_f_3,
 					name: 'EN 2000s Female: RnB',
+				},
+				{
+					arr: en_2000_f_4,
+					name: 'EN 2000s Female: Hard',
 				}
 			]
 	}

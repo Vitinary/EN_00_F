@@ -449,7 +449,8 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_1,
 			group : 'Pink',
 			song : 'Get the Party Started',
-			year : 2001
+			year : 2001,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -1019,6 +1020,11 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_4,
 			group : "Lââm",
 			song : "Petite sœur (2005)"
+		},
+		{
+			pack : EN_2000_F_PACK_1,
+			group : 'Pink',
+			song : 'U + Ur Hand (2006)'
 		}
 ];
 

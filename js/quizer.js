@@ -1014,6 +1014,11 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_4,
 			group : "Jamelia",
 			song : "Beware of the Dog (2006)"
+		},
+		{
+			pack : EN_2000_F_PACK_4,
+			group : "Lââm",
+			song : "Petite sœur (2005)"
 		}
 ];
 

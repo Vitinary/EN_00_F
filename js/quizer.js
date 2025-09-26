@@ -396,13 +396,13 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_1,
 			group : 'Katy Perry',
 			song : "Teenage Dream",
-			year : 2010
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Katy Perry',
 			song : "Firework",
-			year : 2010
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -443,7 +443,7 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_1,
 			group : "Inna",
 			song : 'Sun Is Up',
-			year : 2010
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -480,7 +480,7 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_1,
 			group : "Shakira",
 			song : 'Waka Waka (This Time for Africa) (ft Freshlyground)',
-			year : 2010
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -498,7 +498,7 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_1,
 			group : "Avril Lavigne",
 			song : 'Alice',
-			year : 2010
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -846,7 +846,7 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_2,
 			group : "Sia",
 			song : 'Clap Your Hands',
-			year : 2010
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_2,
@@ -918,13 +918,13 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_2,
 			group : "Selena Gomez",
 			song : "Who Says",
-			year : 2010
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Lady Gaga",
 			song : "Alejandro",
-			year : 2010
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_2,

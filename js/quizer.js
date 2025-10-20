@@ -696,7 +696,7 @@ let en_2000_f = [
 			ignore : true
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : 'Myriam Faris',
 			song : 'Chamarni (Enta bel hayat) (2003)'
 		},
@@ -1000,7 +1000,7 @@ let en_2000_f = [
 			song : "Beware of the Dog (2006)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Lââm",
 			song : "Petite sœur (2005)"
 		},

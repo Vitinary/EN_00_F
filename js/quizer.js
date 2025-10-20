@@ -758,8 +758,8 @@ let en_2000_f = [
 		},
 		{
 			pack : EN_2000_F_PACK_1,
-			group : 'Alicia Keys (2007)',
-			song : "No One"
+			group : 'Alicia Keys',
+			song : "No One (2007)"
 		},
 		{
 			pack : EN_2000_F_PACK_3,

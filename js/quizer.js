@@ -344,53 +344,55 @@ function load(){
 // EN songs
 
 const en_2000_f_icon = [
-	'easy',
 	'medium',
-	'rnb',
-	'hard'
+	'hard',
+	'rnb'
 ];
 
 const EN_2000_F_PACK_1 = 1;
 const EN_2000_F_PACK_2 = 2;
 const EN_2000_F_PACK_3 = 3;
-const EN_2000_F_PACK_4 = 4;
 
 let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Britney Spears',
 			song : 'Womanizer',
-			year : 2008
+			year : 2008,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Pink',
 			song : 'So What',
-			year : 2008
+			year : 2008,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Britney Spears',
 			song : 'Ooops!... I did it again',
-			year : 2000
+			year : 2000,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Christina Aguilera",
 			song : 'Beautiful',
-			year : 2002
+			year : 2002,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Taylor Swift",
-			song : 'Love Story',
-			year : 2008
+			song : 'Love Story (2008)'
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Lady Gaga",
 			song : "Just Dance (ft Colby ODonis)",
-			year : 2008
+			year : 2008,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -408,36 +410,40 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_1,
 			group : 'Katy Perry',
 			song : "Waking Up In Vegas",
-			year : 2009
+			year : 2009,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Taylor Swift",
-			song : 'You Belong With Me',
-			year : 2009
+			song : 'You Belong With Me (2009)'
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Gwen Stefani",
 			song : "Hollaback Girl",
-			year : 2005
+			year : 2005,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Gwen Stefani",
 			song : "The sweet escape (ft Akon)",
-			year : 2006
+			year : 2006,
+			ignore : true
 		},
 		{
 			group : "Inna",
 			song : 'Hot',
-			year : 2008
+			year : 2008,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Inna",
 			song : 'Amazing',
-			year : 2009
+			year : 2009,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -456,25 +462,29 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_1,
 			group : 'Pink',
 			song : 'Trouble',
-			year : 2003
+			year : 2003,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Britney Spears',
 			song : 'Gimme More',
-			year : 2007
+			year : 2007,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Shakira",
 			song : 'Objection (Tango)',
-			year : 2002
+			year : 2002,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Shakira",
 			song : 'La Tortura (ft Alejandro Sanz)',
-			year : 2005
+			year : 2005,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -486,13 +496,15 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_1,
 			group : "Avril Lavigne",
 			song : 'My Happy Ending',
-			year : 2004
+			year : 2004,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Avril Lavigne",
 			song : "Nobody's Home",
-			year : 2004
+			year : 2004,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -503,344 +515,310 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Jennifer Lopez",
-			song : "Ain't It Funny",
-			year : 2001
+			song : "Ain't It Funny (2001)"
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Jennifer Lopez",
-			song : "Love Don't Cost a Thing",
-			year : 2000
+			song : "Love Don't Cost a Thing (2000)"
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Jennifer Lopez",
 			song : "Jenny from the Block",
-			year : 2002
+			year : 2002,
+			ignore : true
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Mary J. Blige",
-			song : 'Family Affair',
-			year : 2001
+			song : 'Family Affair (2001)'
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Vanessa Carlton",
-			song : 'A Thousand Miles',
-			year : 2002
+			song : 'A Thousand Miles (2002)'
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Leona Lewis",
-			song : "Bleeding Love",
-			year : 2007
+			song : "Bleeding Love (2007)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Amy Winehouse",
-			song : "Back to Black",
-			year : 2006
+			song : "Back to Black (2006)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Despina Vandi",
-			song : "Come Along Now",
-			year : 2004
+			song : "Come Along Now (2004)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Kelis",
-			song : "Milkshake",
-			year : 2003
+			song : "Milkshake (2003)"
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : "Kelis",
 			song : "Trick Me",
-			year : 2004
+			year : 2004,
+			ignore : true
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "MIA",
-			song : "Paper Planes",
-			year : 2008
+			song : "Paper Planes (2008)"
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Ida Corr",
 			song : "Let Me Think About It (ft Fedde Le Grand)",
-			year : 2007
+			year : 2007,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Duffy',
-			song : "Mercy",
-			year : 2008
+			song : "Mercy (2008)"
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Celine Dion',
 			song : "A New Day Has Come",
-			year : 2002
+			year : 2002,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Madonna',
 			song : "Music",
-			year : 2000
+			year : 2000,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Madonna',
 			song : "Hung Up",
-			year : 2005
+			year : 2005,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Madonna',
 			song : "4 minutes (ft Justin Timberlake & Timbaland)",
-			year : 2008
+			year : 2008,
+			ignore : true
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : 'Kelly Clarkson',
-			song : "Because of You",
-			year : 2005
+			song : "Because of You (2005)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : 'Kelly Clarkson',
-			song : "A Moment Like This",
-			year : 2002
+			song : "A Moment Like This (2002)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : 'Kelly Clarkson',
-			song : "My Life Would Suck Without You",
-			year : 2009
+			song : "My Life Would Suck Without You (2009)"
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Geri Halliwell',
-			song : "Calling",
-			year : 2001
+			song : "Calling (2001)"
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Kesha',
 			song : 'Tick Tock',
-			year : 2009
+			year : 2009,
+			ignore : true
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : 'Dido',
-			song : 'Thank You',
-			year : 2000
+			song : 'Thank You (2000)'
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : 'Dido',
-			song : 'White Flag',
-			year : 2003
+			song : 'White Flag (2003)'
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Kylie Minogue',
 			song : 'Spinning Around',
-			year : 2000
+			year : 2000,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Kylie Minogue',
 			song : "Can't Get You Out of My Head",
-			year : 2001
+			year : 2001,
+			ignore : true
+		},
+		{
+			pack : EN_2000_F_PACK_1,
+			group : 'Mariah Carey',
+			song : 'We Belong Together (2005)'
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Mariah Carey',
-			song : 'We Belong Together',
-			year : 2005
-		},
-		{
-			pack : EN_2000_F_PACK_2,
-			group : 'Mariah Carey',
-			song : 'Touch My Body',
-			year : 2008
+			song : 'Touch My Body (2008)'
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Ashanti',
-			song : 'Foolish',
-			year : 2002
+			song : 'Foolish (2002)'
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'LeAnn Rimes',
-			song : "Can't Fight The Moonlight",
-			year : 2000
-		},
+			song : "Can't Fight The Moonlight (2000)"
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Amy McDonald',
 			song : 'This Is The Life',
-			year : 2007
+			year : 2007,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Myriam Faris',
-			song : 'Chamarni (Enta bel hayat)',
-			year : 2003
+			song : 'Chamarni (Enta bel hayat) (2003)'
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'September',
-			song : 'Cry For You',
-			year : 2006
+			song : 'Cry For You (2006)'
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Enya',
 			song : 'And Winter Came',
-			year : 2008
+			year : 2008,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Oceana',
-			song : 'Cry cry',
-			year : 2009
+			song : 'Cry cry (2009)'
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : 'Alicia Keys',
-			song : "If I Ain't Got You",
-			year : 2003
+			song : "If I Ain't Got You (2003)"
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Nelly Furtado",
-			song : 'Say It Right',
-			year : 2006
+			song : 'Say It Right (2006)'
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Beyonce",
-			song : "Baby Boy (ft Sean Paul)",
-			year : 2003
+			song : "Baby Boy (ft Sean Paul) (2003)"
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Beyonce",
-			song : "Halo",
-			year : 2009
+			song : "Halo (2009)"
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Beyonce",
-			song : "If I Were a Boy",
-			year : 2008
+			song : "If I Were a Boy (2008)"
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Rihanna",
-			song : "Don't Stop The Music",
-			year : 2007
+			song : "Don't Stop The Music (2007)"
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Rihanna",
-			song : 'Disturbia',
-			year : 2008
+			song : 'Disturbia (2008)'
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Rihanna",
-			song : 'Unfaithful',
-			year : 2006
+			song : 'Unfaithful (2006)'
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : 'Alicia Keys',
-			song : "Falling",
-			year : 2001
+			song : "Falling (2001)"
 		},
 		{
-			pack : EN_2000_F_PACK_3,
-			group : 'Alicia Keys',
-			song : "No One",
-			year : 2007
-		},
-		{
-			pack : EN_2000_F_PACK_3,
-			group : "Fergie",
-			song : 'Big Girls Don`t Cry',
-			year : 2007
+			pack : EN_2000_F_PACK_1,
+			group : 'Alicia Keys (2007)',
+			song : "No One"
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Fergie",
-			song : 'London Bridge',
-			year : 2006
+			song : 'Big Girls Don`t Cry (2007)'
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Fergie",
-			song : 'Clumsy',
-			year : 2007
+			song : 'London Bridge (2006)'
+		},
+		{
+			pack : EN_2000_F_PACK_3,
+			group : "Fergie",
+			song : 'Clumsy (2007)'
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Nelly Furtado",
-			song : 'Promiscuous (ft Timbaland)',
-			year : 2006
+			song : 'Promiscuous (ft Timbaland) (2006)'
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Miley Cyrus",
-			song : '7 Things',
-			year : 2008
+			song : '7 Things (2008)'
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Miley Cyrus",
-			song : 'The Climb',
-			year : 2009
+			song : 'The Climb (2009)'
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Miley Cyrus",
-			song : 'Party In The U.S.A.',
-			year : 2009
+			song : 'Party In The U.S.A. (2009)'
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Ciara",
-			song : 'Goodies',
-			year : 2004
+			song : 'Goodies (2004)'
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Ciara",
-			song : 'One, Two Step',
-			year : 2004
+			song : 'One, Two Step (2004)'
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Missy Elliott",
-			song : 'Work It',
-			year : 2002
+			song : 'Work It (2002)'
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Missy Elliott",
-			song : 'Get Ur Freak On',
-			year : 2001
+			song : 'Get Ur Freak On (2001)'
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Missy Elliott",
-			song : 'Gossip Folks',
-			year : 2002
+			song : 'Gossip Folks (2002)'
 		},
 		{
 			pack : EN_2000_F_PACK_2,
@@ -852,67 +830,67 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_2,
 			group : "Sia",
 			song : 'The Girl You Lost To Cocaine',
-			year : 2008
+			year : 2008,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : "Sia",
 			song : "Soon We’ll Be Found",
-			year : 2008
+			year : 2008,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Nelly Furtado",
-			song : 'Forca',
-			year : 2003
+			song : 'Forca (2003)'
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : "Titiyo",
-			song : 'Come Along',
-			year : 2001
+			song : 'Come Along (2001)'
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Natasha Bedingfield",
-			song : 'These Words',
-			year : 2004
+			song : 'These Words (2004)'
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Natasha Bedingfield",
-			song : 'Single',
-			year : 2004
+			song : 'Single (2004)',
+			ignore : true
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Natasha Bedingfield",
-			song : 'Unwritten',
-			year : 2004
+			song : 'Unwritten (2004)'
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Lady Gaga",
 			song : "Boys Boys Boys",
-			year : 2007
+			year : 2007,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : "Despina Vandi",
-			song : "Opa Opa",
-			year : 2004
+			song : "Opa Opa (2004)"
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Christina Aguilera",
 			song : 'Candyman',
-			year : 2007
+			year : 2007,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Christina Aguilera",
 			song : 'Fighter',
-			year : 2003
+			year : 2003,
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_2,
@@ -929,26 +907,23 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_2,
 			group : "Emma Bunton",
-			song : "What Took You So Long",
-			year : 2001
+			song : "What Took You So Long (2001)"
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : "Kelis",
-			song : "Bossy (ft Too Short)",
-			year : 2006
+			song : "Bossy (ft Too Short) (2006)",
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : "Lily Allen",
-			song : "Smile",
-			year : 2006
+			song : "Smile (2006)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_3,
 			group : "Aaliyah",
-			song : "Try Again",
-			year : 2000
+			song : "Try Again (2000)"
 		},
 		{
 			pack : EN_2000_F_PACK_3,
@@ -957,81 +932,116 @@ let en_2000_f = [
 			year : 2009
 		},
 		{
-			pack : EN_2000_F_PACK_4,
+			pack : EN_2000_F_PACK_2,
 			group : "Ashlee Simpson",
 			song : "Pieces of Me (2004)"
 		},
 		{
-			pack : EN_2000_F_PACK_4,
+			pack : EN_2000_F_PACK_2,
 			group : "Ashlee Simpson",
 			song : "Boyfriend (2005)"
 		},
 		{
-			pack : EN_2000_F_PACK_4,
+			pack : EN_2000_F_PACK_2,
 			group : "Ashlee Simpson",
 			song : "L.O.V.E. (2005)"
 		},
 		{
-			pack : EN_2000_F_PACK_4,
+			pack : EN_2000_F_PACK_2,
 			group : "Jessica Simpson",
 			song : "I Think I'm in Love with You (2000)"
 		},
 		{
-			pack : EN_2000_F_PACK_4,
+			pack : EN_2000_F_PACK_2,
 			group : "Jessica Simpson",
 			song : "A Public Affair (2006)"
 		},
 		{
-			pack : EN_2000_F_PACK_4,
+			pack : EN_2000_F_PACK_2,
 			group : "Jessica Simpson",
 			song : "These Boots Are Made for Walkin' (2005)"
 		},
 		{
-			pack : EN_2000_F_PACK_4,
+			pack : EN_2000_F_PACK_2,
 			group : "JoJo",
 			song : "Leave (Get Out) (2004)"
 		},
 		{
-			pack : EN_2000_F_PACK_4,
+			pack : EN_2000_F_PACK_2,
 			group : "JoJo",
 			song : "Baby It's You (ft Bow Wow) (2004)"
 		},
 		{
-			pack : EN_2000_F_PACK_4,
+			pack : EN_2000_F_PACK_2,
 			group : "JoJo",
 			song : "Too Little Too Late (2006)"
 		},
 		{
-			pack : EN_2000_F_PACK_4,
+			pack : EN_2000_F_PACK_2,
 			group : "Jamelia",
 			song : "Superstar (2003)"
 		},
 		{
-			pack : EN_2000_F_PACK_4,
+			pack : EN_2000_F_PACK_2,
 			group : "Jamelia",
 			song : "Thank You (2004)"
 		},
 		{
-			pack : EN_2000_F_PACK_4,
+			pack : EN_2000_F_PACK_2,
 			group : "Jamelia",
 			song : "Beware of the Dog (2006)"
 		},
 		{
-			pack : EN_2000_F_PACK_4,
+			pack : EN_2000_F_PACK_2,
 			group : "Lââm",
 			song : "Petite sœur (2005)"
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Pink',
-			song : 'U + Ur Hand (2006)'
+			song : 'U + Ur Hand (2006)',
+			ignore : true
+		},
+		{
+			pack : EN_2000_F_PACK_1,
+			group : "Jennifer Lopez",
+			song : "Qué Hiciste (2007)"
+		},
+		{
+			pack : EN_2000_F_PACK_1,
+			group : "Taylor Swift",
+			song : 'Picture To Burn (2006)'
+		},
+		{
+			pack : EN_2000_F_PACK_1,
+			group : "Natasha Bedingfield",
+			song : 'Pocketful of Sunshine (2008)'
+		},
+		{
+			pack : EN_2000_F_PACK_2,
+			group : "Lily Allen",
+			song : "Fuck You (2009)"
+		},
+		{
+			pack : EN_2000_F_PACK_2,
+			group : "Lily Allen",
+			song : "Not Fair (2009)"
+		},
+		{
+			pack : EN_2000_F_PACK_2,
+			group : "Lykke Li",
+			song : "I'm Good, I'm Gone (2008)"
+		},
+		{
+			pack : EN_2000_F_PACK_2,
+			group : "Lykke Li",
+			song : "Possibility (2009)"
 		}
 ];
 
 let en_2000_f_1 =	en_2000_f.filter(item => item.pack == 1);
 let en_2000_f_2 =	en_2000_f.filter(item => item.pack == 2);
 let en_2000_f_3 =	en_2000_f.filter(item => item.pack == 3);
-let en_2000_f_4 =	en_2000_f.filter(item => item.pack == 4);
 
 let music = [
 	{
@@ -1042,19 +1052,15 @@ let music = [
 		packs: [
 				{
 					arr: en_2000_f_1,
-					name: 'EN 2000s Female: Easy',
+					name: 'EN 2000s Female: Medium',
 				},
 				{
 					arr: en_2000_f_2,
-					name: 'EN 2000s Female: Medium',
+					name: 'EN 2000s Female: Hard',
 				},
 				{
 					arr: en_2000_f_3,
 					name: 'EN 2000s Female: RnB',
-				},
-				{
-					arr: en_2000_f_4,
-					name: 'EN 2000s Female: Hard',
 				}
 			]
 	}

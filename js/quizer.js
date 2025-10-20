@@ -532,7 +532,8 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Mary J. Blige",
-			song : 'Family Affair (2001)'
+			song : 'Family Affair (2001)',
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -547,12 +548,14 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Amy Winehouse",
-			song : "Back to Black (2006)"
+			song : "Back to Black (2006)",
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Despina Vandi",
-			song : "Come Along Now (2004)"
+			song : "Come Along Now (2004)",
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -629,7 +632,8 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Geri Halliwell',
-			song : "Calling (2001)"
+			song : "Calling (2001)",
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_2,
@@ -641,12 +645,14 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Dido',
-			song : 'Thank You (2000)'
+			song : 'Thank You (2000)',
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Dido',
-			song : 'White Flag (2003)'
+			song : 'White Flag (2003)',
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_2,
@@ -668,7 +674,7 @@ let en_2000_f = [
 			song : 'We Belong Together (2005)'
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : 'Mariah Carey',
 			song : 'Touch My Body (2008)'
 		},
@@ -678,7 +684,7 @@ let en_2000_f = [
 			song : 'Foolish (2002)'
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : 'LeAnn Rimes',
 			song : "Can't Fight The Moonlight (2000)"
 		},
@@ -697,7 +703,8 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'September',
-			song : 'Cry For You (2006)'
+			song : 'Cry For You (2006)',
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_2,
@@ -707,7 +714,7 @@ let en_2000_f = [
 			ignore : true
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : 'Oceana',
 			song : 'Cry cry (2009)'
 		},
@@ -849,7 +856,8 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_2,
 			group : "Titiyo",
-			song : 'Come Along (2001)'
+			song : 'Come Along (2001)',
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -870,14 +878,13 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Lady Gaga",
-			song : "Boys Boys Boys",
-			year : 2007,
-			ignore : true
+			song : "Boys Boys Boys (2007)"
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : "Despina Vandi",
-			song : "Opa Opa (2004)"
+			song : "Opa Opa (2004)",
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -906,7 +913,7 @@ let en_2000_f = [
 			ignore : true
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Emma Bunton",
 			song : "What Took You So Long (2001)"
 		},
@@ -1037,6 +1044,31 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_2,
 			group : "Lykke Li",
 			song : "Possibility (2009)"
+		},
+		{
+			pack : EN_2000_F_PACK_1,
+			group : "Lady Gaga",
+			song : "Paparazzi (2009)"
+		},
+		{
+			pack : EN_2000_F_PACK_1,
+			group : "Lady Gaga",
+			song : "LoveGame (2009)"
+		},
+		{
+			pack : EN_2000_F_PACK_1,
+			group : "Amy Winehouse",
+			song : "I Heard Love Is Blind (2003)"
+		},
+		{
+			pack : EN_2000_F_PACK_1,
+			group : "Amy Winehouse",
+			song : "Wake Up Alone (2006)"
+		},
+		{
+			pack : EN_2000_F_PACK_1,
+			group : "Amy Winehouse",
+			song : "You Know I'm No Good (2006)"
 		}
 ];
 

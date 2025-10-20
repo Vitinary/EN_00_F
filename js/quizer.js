@@ -681,6 +681,7 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_2,
 			group : 'LeAnn Rimes',
 			song : "Can't Fight The Moonlight (2000)"
+		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Amy McDonald',

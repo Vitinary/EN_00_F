@@ -789,17 +789,17 @@ let en_2000_f = [
 			song : 'Promiscuous (ft Timbaland) (2006)'
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_2,
 			group : "Miley Cyrus",
 			song : '7 Things (2008)'
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_2,
 			group : "Miley Cyrus",
 			song : 'The Climb (2009)'
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_2,
 			group : "Miley Cyrus",
 			song : 'Party In The U.S.A. (2009)'
 		},

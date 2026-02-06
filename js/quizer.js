@@ -346,12 +346,14 @@ function load(){
 const en_2000_f_icon = [
 	'medium',
 	'hard',
-	'rnb'
+	'rnb',
+	'pop'
 ];
 
 const EN_2000_F_PACK_1 = 1;
 const EN_2000_F_PACK_2 = 2;
 const EN_2000_F_PACK_3 = 3;
+const EN_2000_F_PACK_4 = 4;
 
 let en_2000_f = [
 		{
@@ -536,12 +538,12 @@ let en_2000_f = [
 			ignore : true
 		},
 		{
-			pack : EN_2000_F_PACK_1,
+			pack : EN_2000_F_PACK_4,
 			group : "Vanessa Carlton",
 			song : 'A Thousand Miles (2002)'
 		},
 		{
-			pack : EN_2000_F_PACK_1,
+			pack : EN_2000_F_PACK_4,
 			group : "Leona Lewis",
 			song : "Bleeding Love (2007)"
 		},
@@ -558,7 +560,7 @@ let en_2000_f = [
 			ignore : true
 		},
 		{
-			pack : EN_2000_F_PACK_1,
+			pack : EN_2000_F_PACK_4,
 			group : "Kelis",
 			song : "Milkshake (2003)"
 		},
@@ -582,7 +584,7 @@ let en_2000_f = [
 			ignore : true
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_4,
 			group : 'Duffy',
 			song : "Mercy (2008)"
 		},
@@ -679,7 +681,7 @@ let en_2000_f = [
 			song : 'Touch My Body (2008)'
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_4,
 			group : 'Ashanti',
 			song : 'Foolish (2002)'
 		},
@@ -696,7 +698,7 @@ let en_2000_f = [
 			ignore : true
 		},
 		{
-			pack : EN_2000_F_PACK_1,
+			pack : EN_2000_F_PACK_4,
 			group : 'Myriam Faris',
 			song : 'Chamarni (Enta bel hayat) (2003)'
 		},
@@ -714,7 +716,7 @@ let en_2000_f = [
 			ignore : true
 		},
 		{
-			pack : EN_2000_F_PACK_1,
+			pack : EN_2000_F_PACK_4,
 			group : 'Oceana',
 			song : 'Cry cry (2009)'
 		},
@@ -929,7 +931,7 @@ let en_2000_f = [
 			song : "Smile (2006)"
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_4,
 			group : "Aaliyah",
 			song : "Try Again (2000)"
 		},
@@ -1069,12 +1071,23 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_1,
 			group : "Amy Winehouse",
 			song : "You Know I'm No Good (2006)"
+		},
+		{
+			pack : EN_2000_F_PACK_3,
+			group : "Lil Mama",
+			song : 'Lip Gloss (2007)'
+		},
+		{
+			pack : EN_2000_F_PACK_3,
+			group : "Lil' Kim",
+			song : 'The Jump Off (2003)'
 		}
 ];
 
 let en_2000_f_1 =	en_2000_f.filter(item => item.pack == 1);
 let en_2000_f_2 =	en_2000_f.filter(item => item.pack == 2);
 let en_2000_f_3 =	en_2000_f.filter(item => item.pack == 3);
+let en_2000_f_4 =	en_2000_f.filter(item => item.pack == 4);
 
 let music = [
 	{
@@ -1085,15 +1098,19 @@ let music = [
 		packs: [
 				{
 					arr: en_2000_f_1,
-					name: 'EN 2000s Female: Medium',
+					name: 'EN 2000s Female: Medium'
 				},
 				{
 					arr: en_2000_f_2,
-					name: 'EN 2000s Female: Hard',
+					name: 'EN 2000s Female: Hard'
 				},
 				{
 					arr: en_2000_f_3,
-					name: 'EN 2000s Female: RnB',
+					name: 'EN 2000s Female: RnB'
+				},
+				{
+					arr: en_2000_f_4,
+					name: 'EN 2000s Female: One Hit Wonders'
 				}
 			]
 	}
@@ -1107,6 +1124,7 @@ function map_songs(){
 	$('#mirror').hide();
 	$('#map').hide();
 	$('#package_content').hide();
+	$('#sec_15_hist').show();
 	$('#mapping_content').show();
 	toggleLearn();
 	for(var j=0; j < music.length; j++){
@@ -1445,6 +1463,15 @@ function back_to_browser(){
 function back_to_current_pack(){
 	back = back_to_browser;
 	$('#mapping_content').hide();
+	$('#sec_15_hist').hide();
+	song_stop();
 	$('#map').show();
 	package_num(pack_num);
+}
+
+function song_stop() {
+	if(audio){
+		audio.pause();
+		audio = null;
+	}
 }

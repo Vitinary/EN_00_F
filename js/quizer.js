@@ -1081,6 +1081,21 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_3,
 			group : "Lil' Kim",
 			song : 'The Jump Off (2003)'
+		},
+		{
+			pack : EN_2000_F_PACK_1,
+			group : "Christina Aguilera",
+			song : 'Hurt (2006)'
+		},
+		{
+			pack : EN_2000_F_PACK_1,
+			group : "Christina Aguilera",
+			song : 'By Your Side (2001)'
+		},
+		{
+			pack : EN_2000_F_PACK_1,
+			group : "Christina Aguilera",
+			song : 'El Beso del Final (2000)'
 		}
 ];
 

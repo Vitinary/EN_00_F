@@ -572,7 +572,7 @@ let en_2000_f = [
 			ignore : true
 		},
 		{
-			pack : EN_2000_F_PACK_1,
+			pack : EN_2000_F_PACK_4,
 			group : "MIA",
 			song : "Paper Planes (2008)"
 		},
@@ -1002,7 +1002,7 @@ let en_2000_f = [
 			song : "Beware of the Dog (2006)"
 		},
 		{
-			pack : EN_2000_F_PACK_1,
+			pack : EN_2000_F_PACK_4,
 			group : "Lââm",
 			song : "Petite sœur (2005)"
 		},
@@ -1073,12 +1073,12 @@ let en_2000_f = [
 			song : "You Know I'm No Good (2006)"
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_4,
 			group : "Lil Mama",
 			song : 'Lip Gloss (2007)'
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_4,
 			group : "Lil' Kim",
 			song : 'The Jump Off (2003)'
 		},

@@ -550,8 +550,7 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Amy Winehouse",
-			song : "Back to Black (2006)",
-			ignore : true
+			song : "Back to Black (2006)"
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -1060,12 +1059,14 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Amy Winehouse",
-			song : "I Heard Love Is Blind (2003)"
+			song : "I Heard Love Is Blind (2003)",
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Amy Winehouse",
-			song : "Wake Up Alone (2006)"
+			song : "Wake Up Alone (2006)",
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -1096,6 +1097,11 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_1,
 			group : "Christina Aguilera",
 			song : 'El Beso del Final (2000)'
+		},
+		{
+			pack : EN_2000_F_PACK_1,
+			group : "Amy Winehouse",
+			song : "Rehab (2006)"
 		}
 ];
 

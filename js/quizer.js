@@ -1099,6 +1099,11 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_1,
 			group : "Amy Winehouse",
 			song : "Rehab (2006)"
+		},
+		{
+			pack : EN_2000_F_PACK_4,
+			group : "Anggun",
+			song : 'Saviour (2005)'
 		}
 ];
 

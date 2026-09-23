@@ -344,10 +344,8 @@ function load(){
 // EN songs
 
 const en_2000_f_icon = [
-	'medium',
-	'hard',
-	'rnb',
-	'pop'
+	'pop',
+	'pop_2'
 ];
 
 const EN_2000_F_PACK_1 = 1;
@@ -725,37 +723,37 @@ let en_2000_f = [
 			song : "If I Ain't Got You (2003)"
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : "Nelly Furtado",
 			song : 'Say It Right (2006)'
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : "Beyonce",
 			song : "Baby Boy (ft Sean Paul) (2003)"
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : "Beyonce",
 			song : "Halo (2009)"
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : "Beyonce",
 			song : "If I Were a Boy (2008)"
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : "Rihanna",
 			song : "Don't Stop The Music (2007)"
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : "Rihanna",
 			song : 'Disturbia (2008)'
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : "Rihanna",
 			song : 'Unfaithful (2006)'
 		},
@@ -770,62 +768,62 @@ let en_2000_f = [
 			song : "No One (2007)"
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : "Fergie",
 			song : 'Big Girls Don`t Cry (2007)'
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : "Fergie",
 			song : 'London Bridge (2006)'
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : "Fergie",
 			song : 'Clumsy (2007)'
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : "Nelly Furtado",
 			song : 'Promiscuous (ft Timbaland) (2006)'
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Miley Cyrus",
 			song : '7 Things (2008)'
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Miley Cyrus",
 			song : 'The Climb (2009)'
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Miley Cyrus",
 			song : 'Party In The U.S.A. (2009)'
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : "Ciara",
 			song : 'Goodies (2004)'
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : "Ciara",
 			song : 'One, Two Step (2004)'
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : "Missy Elliott",
 			song : 'Work It (2002)'
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : "Missy Elliott",
 			song : 'Get Ur Freak On (2001)'
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : "Missy Elliott",
 			song : 'Gossip Folks (2002)'
 		},
@@ -850,7 +848,7 @@ let en_2000_f = [
 			ignore : true
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : "Nelly Furtado",
 			song : 'Forca (2003)'
 		},
@@ -925,7 +923,7 @@ let en_2000_f = [
 			ignore : true
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Lily Allen",
 			song : "Smile (2006)"
 		},
@@ -935,68 +933,67 @@ let en_2000_f = [
 			song : "Try Again (2000)"
 		},
 		{
-			pack : EN_2000_F_PACK_3,
+			pack : EN_2000_F_PACK_1,
 			group : "Ciara",
-			song : "Love Sex Magic (ft Justin Timberlake)",
-			year : 2009
+			song : "Love Sex Magic (ft Justin Timberlake) (2009)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Ashlee Simpson",
 			song : "Pieces of Me (2004)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Ashlee Simpson",
 			song : "Boyfriend (2005)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Ashlee Simpson",
 			song : "L.O.V.E. (2005)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Jessica Simpson",
 			song : "I Think I'm in Love with You (2000)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Jessica Simpson",
 			song : "A Public Affair (2006)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Jessica Simpson",
 			song : "These Boots Are Made for Walkin' (2005)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "JoJo",
 			song : "Leave (Get Out) (2004)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "JoJo",
 			song : "Baby It's You (ft Bow Wow) (2004)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "JoJo",
 			song : "Too Little Too Late (2006)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Jamelia",
 			song : "Superstar (2003)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Jamelia",
 			song : "Thank You (2004)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Jamelia",
 			song : "Beware of the Dog (2006)"
 		},
@@ -1027,22 +1024,22 @@ let en_2000_f = [
 			song : 'Pocketful of Sunshine (2008)'
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Lily Allen",
 			song : "Fuck You (2009)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Lily Allen",
 			song : "Not Fair (2009)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Lykke Li",
 			song : "I'm Good, I'm Gone (2008)"
 		},
 		{
-			pack : EN_2000_F_PACK_2,
+			pack : EN_2000_F_PACK_1,
 			group : "Lykke Li",
 			song : "Possibility (2009)"
 		},
@@ -1119,15 +1116,7 @@ let music = [
 		packs: [
 				{
 					arr: en_2000_f_1,
-					name: 'EN 2000s Female: Medium'
-				},
-				{
-					arr: en_2000_f_2,
-					name: 'EN 2000s Female: Hard'
-				},
-				{
-					arr: en_2000_f_3,
-					name: 'EN 2000s Female: RnB'
+					name: 'EN 2000s Female: Pop'
 				},
 				{
 					arr: en_2000_f_4,

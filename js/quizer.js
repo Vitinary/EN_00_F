@@ -1104,6 +1104,11 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_4,
 			group : "Anggun",
 			song : 'Saviour (2005)'
+		},
+		{
+			pack : EN_2000_F_PACK_4,
+			group : "Paris Hilton",
+			song : 'Stars Are Blind (2006)'
 		}
 ];
 
